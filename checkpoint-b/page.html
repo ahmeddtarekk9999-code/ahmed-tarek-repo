@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus Store</title>
+    <link rel="stylesheet" href="page.css" />
+  </head>
+
+  <body>
+    <main class="page">
+      <header class="page-header">
+        <div>
+          <p class="eyebrow">CAMPUS ESSENTIALS</p>
+          <h1>Campus Store</h1>
+          <p class="subtitle">Everything you need for your campus life.</p>
+        </div>
+
+        <button id="shortlist" type="button">Shortlist</button>
+      </header>
+
+      <section aria-label="Products">
+        <h2 class="section-title">Our products</h2>
+        <ul id="list"></ul>
+      </section>
+    </main>
+
+    <script type="module" src="page.js"></script>
+    <script type="module">
+      import { start } from "./page.js";
+      start();
+    </script>
+  </body>
+</html>
